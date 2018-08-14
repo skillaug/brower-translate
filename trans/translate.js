@@ -18,10 +18,10 @@
 // };
 //
 // var updateTransBoxPosition = function (event) {
-//     var x = event.pageX;
-//     var y = event.pageY;
+//     var x = 0 //event.pageX;
+//     var y = 0 //event.pageY;
 //     var e = document.getElementsByClassName('skillaug-google-translate')[0];
-//     e.style = 'position: absolute;\n' +
+//     e.style = 'position: fixed;\n' +
 //         'display: block;\n' +
 //         'z-index: 9999;\n' +
 //         'top: '+x+'px;\n' +
@@ -61,7 +61,7 @@
 
 var createTransBox = function () {
     var e = document.createElement('div');
-    e.style = 'position: absolute;\n' +
+    e.style = 'position: fixed;\n' +
         'display: none;\n' +
         'z-index: 9999;\n' +
         'top: 0px;\n' +
@@ -94,10 +94,10 @@ window.onload = function() {
         '};\n' +
         '\n' +
         'var updateTransBoxPosition = function (event) {\n' +
-        '    var x = event.pageX;\n' +
-        '    var y = event.pageY;\n' +
+        '    var x = 0 //event.pageX;\n' +
+        '    var y = 0 //event.pageY;\n' +
         '    var e = document.getElementsByClassName(\'skillaug-google-translate\')[0];\n' +
-        '    e.style = \'position: absolute;\\n\' +\n' +
+        '    e.style = \'position: fixed;\\n\' +\n' +
         '        \'display: block;\\n\' +\n' +
         '        \'z-index: 9999;\\n\' +\n' +
         '        \'top: \'+x+\'px;\\n\' +\n' +

@@ -1,10 +1,15 @@
 {
+  "applications": {
+    "gecko": {
+      "id": "sangdung.ts@gmail.com"
+    }
+  },
   "manifest_version" : 2,
   "name" : "Translate",
   "version" : "1.0",
   "description" : "translate select words",
   "icon" : {
-    "48" : "trans.png"
+    "48" : "icons/trans.png"
   },
   "content_scripts": [
     {
